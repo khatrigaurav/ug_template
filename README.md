@@ -227,9 +227,7 @@ Each option changes only the settings listed.
 
 ## 7. Known limitations
 - One configuration per workspace. Give teams different access through groups and budget overrides.
-- Spend-based recommendations are suggestions. Developers can still pick another model; the budget block is the hard limit.
 - Guardrails and the trace table are set up in the UI only.
-- Slack, web sessions and Remote Control don't go through the gateway.
 - Each account can have up to 1,000 active budgets.
 
 ## Reference
