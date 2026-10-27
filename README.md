@@ -6,7 +6,7 @@ This guide sets up Claude Code and Codex to run through Unity Gateway, with gove
 
 You do it in three steps:
 1. Complete the prerequisites below (once per workspace).
-2. Fill in three placeholders in [`coding-agent-config.json`](coding-agent-config.json) and publish it.
+2. Fill in three placeholders in [`coding-agent-config.json`](coding-agent-config.json) and publish it (command :  _databricks api post /api/ai-gateway/v2/coding-agent-configs --json @coding-agent-config.json_)
 3. Developers install the Unity Gateway CLI (`ug`) and run `ug claude` or `ug codex`.
 
 Every workspace uses the same file. Only the catalog, schema and budget ID change.
